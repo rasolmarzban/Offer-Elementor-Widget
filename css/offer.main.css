@@ -1,0 +1,163 @@
+/*======================================
+    Special Offer CSS
+========================================*/
+.special-offer {
+  background-color: #f9f9f9;
+  width: auto;
+  direction: rtl;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .special-offer .section-title {
+    margin-bottom: 20px;
+  }
+}
+
+.special-offer .offer-content {
+  text-align: left;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 20px #00000012;
+          box-shadow: 0px 0px 20px #00000012;
+  padding: 12px;
+  margin-top: 30px;
+}
+
+.special-offer .offer-content:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.special-offer .offer-content .image {
+  position: relative;
+  overflow: hidden;
+}
+
+.special-offer .offer-content .image img {
+  width: 100%;
+  border-radius: 4px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.special-offer .offer-content .image .sale-tag {
+  background: #f73232;
+  border-radius: 2px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  padding: 5px 10px;
+  left: 10px;
+  z-index: 22;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  padding: 0;
+  text-align: center;
+}
+
+.special-offer .offer-content .text {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0px 20px;
+}
+
+.special-offer .offer-content .text h2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.special-offer .offer-content .text h2 a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #081828;
+}
+
+.special-offer .offer-content .text h2 a:hover {
+  color: #0167F3;
+}
+
+.special-offer .offer-content .text .review {
+  margin-top: 5px;
+}
+
+.special-offer .offer-content .text .review li {
+  display: inline-block;
+}
+
+.special-offer .offer-content .text .review li i {
+  color: #fecb00;
+  font-size: 13px;
+}
+
+.special-offer .offer-content .text .review li span {
+  display: inline-block;
+  margin-left: 4px;
+  color: #888;
+  font-size: 13px;
+}
+
+.special-offer .offer-content .text .price {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.special-offer .offer-content .text .price span {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0167F3;
+  display: inline-block;
+}
+
+.special-offer .offer-content .text .price .discount-price {
+  margin: 0;
+  color: #aaaaaa;
+  text-decoration: line-through;
+  font-weight: normal;
+  margin-left: 10px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.special-offer .offer-content .text p {
+  color: #888;
+}
+
+.special-offer .offer-content .box-head {
+  border: 1px solid #eee;
+  padding: 15px 10px;
+  border-radius: 4px;
+}
+
+.special-offer .offer-content .box {
+  background: #ffffff0d;
+  width: 24%;
+  height: auto;
+  margin: 0;
+  display: inline-block;
+}
+
+.special-offer .offer-content h2 {
+  text-align: center;
+  padding-top: 2px;
+  color: #666;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.special-offer .offer-content .box h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 5px;
+  color: #081828;
+}
+
+.special-offer .offer-content .alert {
+  display: none;
+}
+
