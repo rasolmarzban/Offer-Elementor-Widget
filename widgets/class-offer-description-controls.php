@@ -11,7 +11,7 @@ class description_Offer_Controls
         $widget->start_controls_section(
             'description_offer_style_section', // Unique ID for widget section
             [
-                'label' => __('Description Style', 'woocommerce_offer_product'),
+                'label' => __('استایل توضیحات', 'woocommerce_offer_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -20,7 +20,7 @@ class description_Offer_Controls
         $widget->add_control(
             'Description_offer_alignment',
             [
-                'label' => __('Title Alignment', 'woocommerce_offer_product'),
+                'label' => __('مرتبسازی', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
                     'left' => [
@@ -47,7 +47,7 @@ class description_Offer_Controls
         $widget->add_control(
             'offer_description_color',
             [
-                'label' => __('Description Color', 'woocommerce_offer_product'),
+                'label' => __('رنگ توضیحات', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#888888',
                 'selectors' => [
@@ -60,7 +60,7 @@ class description_Offer_Controls
         $widget->add_control(
             'offer_description_size',
             [
-                'label' => __('Description Size', 'woocommerce_offer_product'),
+                'label' => __('اندازه متن توضیحات', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::SLIDER,
                 'size_units' => ['px', 'em', 'rem'],
                 'range' => [

@@ -11,7 +11,7 @@ class Offer_Discount_Controls
         $widget->start_controls_section(
             'discount_offer_style_section', // Unique ID for widget section
             [
-                'label' => __('Discount Style', 'woocommerce_offer_product'),
+                'label' => __('استایل درصد تخفیف', 'woocommerce_offer_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -20,7 +20,7 @@ class Offer_Discount_Controls
         $widget->add_control(
             'discount_offer_title_color',
             [
-                'label' => __('Discount Title Color', 'woocommerce_offer_product'),
+                'label' => __('رنگ عنوان', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#FF0000', // Example color for discount
                 'selectors' => [
@@ -31,7 +31,7 @@ class Offer_Discount_Controls
         $widget->add_control(
             'discount_offer_background_color',
             [
-                'label' => __('Discount Background Color', 'woocommerce_offer_product'),
+                'label' => __('رنگ پس زمینه', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#FF0000', // Example color for discount
                 'selectors' => [

@@ -29,7 +29,7 @@ class WooCommerce_Offer_Products_Widget extends Widget_Base
         $this->start_controls_section(
             'content_section',
             [
-                'label' => __('Content', 'woocommerce_offer_product'),
+                'label' => __('محتوا', 'woocommerce_offer_product'),
                 'tab' => Controls_Manager::TAB_CONTENT,
             ]
         );
@@ -37,7 +37,7 @@ class WooCommerce_Offer_Products_Widget extends Widget_Base
         $this->add_control(
             'offer_width_size',
             [
-                'label' => __('Width Size', 'woocommerce_offer_product'),
+                'label' => __('سایز بخش تخفیف', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::SLIDER,
                 'range' => [
                     'px' => [
@@ -64,7 +64,7 @@ class WooCommerce_Offer_Products_Widget extends Widget_Base
         $this->add_control(
             'products',
             [
-                'label' => __('Select Products', 'woocommerce_offer_product'),
+                'label' => __('انتخاب محصول', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::SELECT2,
                 'options' => $this->get_the_product(),
                 'multiple' => true,
@@ -75,7 +75,7 @@ class WooCommerce_Offer_Products_Widget extends Widget_Base
         $this->add_control(
             'countdown_end_date',
             [
-                'label' => __('Countdown End Date & Time', 'woocommerce_offer_product'),
+                'label' => __('تاریخ شمارنده معکوس', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::DATE_TIME,
                 'picker_options' => [
                     'dateFormat' => 'Y-m-d',

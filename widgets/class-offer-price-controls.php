@@ -11,7 +11,7 @@ class price_Offer_Controls
         $widget->start_controls_section(
             'price_offer_style_section', // Unique ID for widget section
             [
-                'label' => __('Price Style', 'woocommerce_offer_product'),
+                'label' => __('استایل قیمت', 'woocommerce_offer_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -20,7 +20,7 @@ class price_Offer_Controls
         $widget->add_control(
             'price_offer_alignment',
             [
-                'label' => __('Title Alignment', 'woocommerce_offer_product'),
+                'label' => __('مرتبسازی', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
                     'left' => [
@@ -47,7 +47,7 @@ class price_Offer_Controls
         $widget->add_control(
             'offer_regular_price_color',
             [
-                'label' => __('Regular Price Color', 'woocommerce_offer_product'),
+                'label' => __('رنگ قیمت عادی', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#000000', // Default color
                 'selectors' => [
@@ -60,7 +60,7 @@ class price_Offer_Controls
         $widget->add_control(
             'regular_price_size',
             [
-                'label' => __('Regular price Size', 'woocommerce_offer_product'),
+                'label' => __('سایز قیمت عادی', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::SLIDER,
                 'size_units' => ['px', 'em', 'rem'],
                 'range' => [
@@ -91,7 +91,7 @@ class price_Offer_Controls
         $widget->add_control(
             'offer_regular_price_strikethrough_color',
             [
-                'label' => __('Regular Price Strikethrough Color', 'woocommerce_offer_product'),
+                'label' => __('رنگ قیمت فروش', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#888888', // Default strikethrough color
                 'selectors' => [
@@ -104,7 +104,7 @@ class price_Offer_Controls
         $widget->add_control(
             'sale_price_size',
             [
-                'label' => __('Sale Price Size', 'woocommerce_offer_product'),
+                'label' => __('سایز قیمت فروش', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::SLIDER,
                 'size_units' => ['px', 'em', 'rem'],
                 'range' => [

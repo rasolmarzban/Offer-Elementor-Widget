@@ -11,7 +11,7 @@ class Offer_Title_Controls
         $widget->start_controls_section(
             'title_offer_style_section', // Unique ID for widget section
             [
-                'label' => __('Title Product Style', 'woocommerce_offer_product'),
+                'label' => __('استایل عنوان محصول', 'woocommerce_offer_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -20,7 +20,7 @@ class Offer_Title_Controls
         $widget->add_control(
             'title_offer_color',
             [
-                'label' => __('Product Title Color', 'woocommerce_offer_product'),
+                'label' => __('رنگ عنوان محصول', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#333333',
                 'selectors' => [
@@ -32,7 +32,7 @@ class Offer_Title_Controls
         $widget->add_control(
             'title_offer_color_Hover',
             [
-                'label' => __('Product Title Color', 'woocommerce_offer_product'),
+                'label' => __('رنگ عنوان محصول در هاور', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#333333',
                 'selectors' => [
@@ -45,7 +45,7 @@ class Offer_Title_Controls
         $widget->add_control(
             'title_size',
             [
-                'label' => __('Product Title Size', 'woocommerce_offer_product'),
+                'label' => __('سایز عنوان', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::SLIDER,
                 'size_units' => ['px', 'em', 'rem'],
                 'range' => [
@@ -76,7 +76,7 @@ class Offer_Title_Controls
         $widget->add_control(
             'title_offer_alignment',
             [
-                'label' => __('Title Alignment', 'woocommerce_offer_product'),
+                'label' => __('مرتبسازی', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
                     'left' => [

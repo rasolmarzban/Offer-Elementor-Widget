@@ -11,7 +11,7 @@ class Review_Offer_Controls
         $widget->start_controls_section(
             'review_offer_style_section', // Unique ID for widget section
             [
-                'label' => __('Review Style', 'woocommerce_offer_product'),
+                'label' => __('استایل بازدید', 'woocommerce_offer_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -20,7 +20,7 @@ class Review_Offer_Controls
         $widget->add_control(
             'review_offer_alignment',
             [
-                'label' => __('Title Alignment', 'woocommerce_offer_product'),
+                'label' => __('مرتبسازی', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
                     'left' => [

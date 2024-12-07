@@ -10,7 +10,7 @@ class End_Offer_Controls
         $widget->start_controls_section(
             'end_offer_content_section', // Unique ID for widget section
             [
-                'label' => __('End Alert Content', 'woocommerce_offer_product'),
+                'label' => __('متن پیغام اتمام', 'woocommerce_offer_product'),
                 'tab' => Controls_Manager::TAB_CONTENT,
             ]
         );
@@ -19,7 +19,7 @@ class End_Offer_Controls
         $widget->add_control(
             'end_offer_alert_message',
             [
-                'label' => __('End Offer Alert Message', 'woocommerce_offer_product'),
+                'label' => __('متن پیغام اتمام رویداد', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::TEXT,
                 'default' => __('We are sorry, Event ended!', 'woocommerce_offer_product'),
                 'placeholder' => __('Enter the alert message', 'woocommerce_offer_product'),
@@ -32,7 +32,7 @@ class End_Offer_Controls
         $widget->start_controls_section(
             'end_offer_style_section', // Unique ID for widget section
             [
-                'label' => __('End Alert Style', 'woocommerce_offer_product'),
+                'label' => __('استایل پیغام', 'woocommerce_offer_product'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -41,7 +41,7 @@ class End_Offer_Controls
         $widget->add_control(
             'end_offer_alignment',
             [
-                'label' => __('End Title Alignment', 'woocommerce_offer_product'),
+                'label' => __('مرتبسازی', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::CHOOSE,
                 'options' => [
                     'left' => [
@@ -68,7 +68,7 @@ class End_Offer_Controls
         $widget->add_control(
             'end_offer_color',
             [
-                'label' => __('End Title Color', 'woocommerce_offer_product'),
+                'label' => __('رنگ عنوان', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => '#ffffff', // Default color
                 'selectors' => [
@@ -81,7 +81,7 @@ class End_Offer_Controls
         $widget->add_control(
             'end_offer_background',
             [
-                'label' => __('End Title Background', 'woocommerce_offer_product'),
+                'label' => __('رنگ پس زمینه', 'woocommerce_offer_product'),
                 'type' => Controls_Manager::COLOR,
                 'default' => 'rgb(204, 24, 24)', // Default color
                 'selectors' => [
